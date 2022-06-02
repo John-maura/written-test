@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Area of a rectangle</title>
+</head>
+<body>
+   <!-- <p>Enter length and width to get area of the rectangle</p>
+    <form action="">
+        <label for="length"> Length</label>
+        <input type="number" id="length">
+        <label for="width"> Length</label>
+        <input type="number" id="width">
+        <button id="getarea">get area</button>
+    </form>
+    <p>The area is<span id="area"></span></p>*/ 
+-->
+    <script>
+      
+
+        class Rectangle {
+            constructor(wth, lth) {
+                this.wth = wth;
+                this.lth = lth;
+            }
+          area(){
+                return this.wth*this.lth;
+            }
+        }
+        let calcarea = new Rectangle(10, 5);
+       let answer = calcarea.area();
+ console.log(answer);
+    </script>
+</body>
+</html>
